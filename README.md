@@ -26,12 +26,12 @@ docker run -v ~/eclipse-workspace:/mnt/extra-addons -p 8069:8069 --name odoo-tes
 Gestion des changements
 (Change Management):
 
-docker run -v ~/eclipse-workspace:/mnt/extra-addons -p 8061:8069 --name odoo-chm--link db:db -t odoo:11
+docker run -v ~/eclipse-workspace:/mnt/extra-addons -p 8061:8069 --name odoo-chm --link db:db -t odoo:11
 
 Gestion des actifs du service et des éléments de configuration
 (Service Actives and Configuration Item Management):
 
-docker run -v ~/eclipse-workspace:/mnt/extra-addons -p 8062:8069 --name odoo-sacm--link db:db -t odoo:11
+docker run -v ~/eclipse-workspace:/mnt/extra-addons -p 8062:8069 --name odoo-sacm --link db:db -t odoo:11
 
 
 
